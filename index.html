@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>أرقام الطوارئ في مصر | Egypt Emergency Numbers</title>
+<meta name="description" content="Every Egypt emergency and service number in one place. Works offline. كل أرقام الطوارئ في مصر في مكان واحد.">
+<meta name="theme-color" content="#c8102e">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script>
+try{var D=document.documentElement,g=function(k){return localStorage.getItem('egs-'+k)},th=g('theme'),l=g('lang')||'ar';
+if(th&&th!=='auto')D.dataset.theme=th;D.lang=l;D.dir=l==='ar'?'rtl':'ltr';D.style.fontSize=[100,112,128][+g('fs')||0]+'%'}catch(e){}
+</script>
+<style>
+:root{--bg:#f1f3f5;--sf:#fff;--ink:#111a22;--mut:#53606c;--ln:#d3dae1;--soft:#e8ecf0;--red:#c8102e;--on:#fff;--fo:#0b57d0}
+:root[data-theme=dark]{--bg:#0e1419;--sf:#161e26;--ink:#e9eef2;--mut:#9aa8b4;--ln:#27333e;--soft:#1e2832;--red:#d3182f;--fo:#7ab0ff}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0e1419;--sf:#161e26;--ink:#e9eef2;--mut:#9aa8b4;--ln:#27333e;--soft:#1e2832;--red:#d3182f;--fo:#7ab0ff}}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font:400 1rem/1.5 system-ui,"Segoe UI",Tahoma,"Noto Sans Arabic",sans-serif;-webkit-text-size-adjust:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--fo);outline-offset:2px}
+.wrap{max-width:60rem;margin:0 auto;padding:0 1rem}
+button,select{font:inherit;color:inherit}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+header{background:var(--sf);border-bottom:1px solid var(--ln)}
+.top{display:flex;flex-wrap:wrap;gap:.75rem 1.5rem;align-items:flex-end;justify-content:space-between;padding:1.25rem 0 1rem}
+h1{font-size:clamp(1.4rem,4.5vw,2.1rem);line-height:1.2;font-weight:800;letter-spacing:-.01em}
+.sub{color:var(--mut);margin-top:.25rem;max-width:36rem}
+.tools{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+.tools select,.tools button{min-height:2.5rem;padding:.25rem .8rem;line-height:1.15;background:var(--sf);border:1px solid var(--ln);border-radius:.4rem;cursor:pointer}
+.tools [aria-pressed=true]{border-color:var(--ink)}
+
+.crit{position:sticky;top:0;z-index:5;background:var(--bg);padding:.6rem 0;border-bottom:1px solid var(--ln)}
+.crit-g{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem}
+.cb{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:4.4rem;padding:.4rem;border-radius:.5rem;background:var(--red);color:var(--on);text-decoration:none;text-align:center;line-height:1.15}
+.cb b{font-size:clamp(1.6rem,6.5vw,2.4rem);font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.cb span{font-size:.72rem;font-weight:600}
+.cb.alt{background:var(--sf);color:var(--ink);border:2px solid var(--red)}
+.cb.alt b{color:var(--red)}
+
+.panel{margin-top:1rem;display:flex;flex-wrap:wrap;gap:.6rem 1rem;align-items:center;padding:.8rem 1rem;background:var(--sf);border:1px solid var(--ln);border-radius:.5rem}
+.panel p{color:var(--mut);flex:1 1 14rem}
+#locout{flex:1 1 100%;font-variant-numeric:tabular-nums}
+.btn{display:inline-flex;align-items:center;justify-content:center;flex-direction:column;line-height:1.15;min-height:2.5rem;padding:.3rem 1rem;border:1px solid var(--ln);border-radius:.4rem;background:var(--sf);cursor:pointer;text-decoration:none;font-weight:600;white-space:nowrap}
+.btn.call{background:var(--red);border-color:var(--red);color:var(--on)}
+.btn[aria-pressed=true]{border-color:var(--ink);background:var(--soft)}
+
+.find{margin-top:1.25rem;display:grid;gap:.75rem}
+#q{width:100%;min-height:3rem;padding:0 1rem;font:inherit;background:var(--sf);color:var(--ink);border:1px solid var(--ln);border-radius:.5rem}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem}
+.chip{min-height:2.25rem;padding:.25rem .9rem;line-height:1.15;border:1px solid var(--ln);border-radius:2rem;background:var(--sf);cursor:pointer;font-size:.9rem}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+#count{color:var(--mut);font-size:.9rem}
+
+section.grp{margin-top:2rem}
+.gh{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:.25rem 1rem;padding-bottom:.5rem;border-bottom:2px solid var(--ink)}
+.gh h2{font-size:1.2rem;font-weight:800}
+.gh span{color:var(--mut);font-size:.95rem}
+.row{display:grid;grid-template-columns:8.5rem 1fr auto;gap:.5rem 1rem;align-items:center;padding:.9rem 0;border-bottom:1px solid var(--ln)}
+.num{font-size:clamp(1.5rem,5vw,2rem);font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:-.02em;text-decoration:none;direction:ltr;unicode-bidi:isolate;text-align:start;color:var(--red);overflow-wrap:anywhere;line-height:1.1}
+.nm{font-size:1.05rem;font-weight:700;line-height:1.3}
+.nm small{display:block;font-size:.9rem;font-weight:500;color:var(--mut)}
+.note{margin-top:.2rem;color:var(--mut);font-size:.92rem;max-width:36rem}
+.acts{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:flex-end}
+.empty{padding:2.5rem 0;text-align:center;color:var(--mut)}
+
+.notes{margin-top:2.5rem;padding:1rem 1.25rem;background:var(--sf);border:1px solid var(--ln);border-inline-start:4px solid var(--red);border-radius:.4rem}
+.notes ul{padding-inline-start:1.1rem;display:grid;gap:.4rem;max-width:44rem}
+footer{margin-top:2.5rem;padding:1.5rem 0 3rem;border-top:1px solid var(--ln);color:var(--mut);font-size:.92rem}
+footer h2{font-size:1rem;color:var(--ink);margin-bottom:.5rem}
+footer ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:.25rem 1.25rem;margin-bottom:1rem}
+footer p+p{margin-top:.4rem}
+#toast{position:fixed;inset-inline:0;bottom:1.25rem;margin:auto;width:max-content;max-width:90vw;background:var(--ink);color:var(--bg);padding:.6rem 1.1rem;border-radius:.4rem;opacity:0;pointer-events:none;transition:opacity .15s}
+#toast.on{opacity:1}
+
+.en{display:block;font-size:.76em;font-weight:500;opacity:.85;line-height:1.2}
+h1 .en{font-size:.5em;font-weight:600;color:var(--mut);opacity:1;margin-top:.2rem}
+.note span{display:block}
+.bar{display:flex;flex-wrap:wrap;gap:.6rem 1rem;align-items:center;justify-content:space-between}
+.bar .note{margin-top:.3rem}
+@media(max-width:40rem){
+ .row{grid-template-columns:1fr auto}.num{grid-column:1/-1}.acts{grid-column:1/-1;justify-content:flex-start}
+ .row .info{grid-column:1/-1}.tools{width:100%}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+@media print{.tools,.crit,.panel,.find,.acts,#toast{display:none!important}body{background:#fff;color:#000}.row{break-inside:avoid}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap top">
+  <div><h1 id="h1"></h1><p class="sub" id="sub"></p></div>
+  <div class="tools">
+   <label class="sr" for="lang" data-i="lang"></label>
+   <select id="lang"></select>
+   <button id="theme" type="button"></button>
+   <button id="fs" type="button"></button>
+   <button id="print" type="button" data-i="print"></button>
+  </div>
+ </div>
+</header>
+
+<div class="crit"><div class="wrap">
+ <nav class="crit-g" id="crit" aria-label="Emergency calls"></nav>
+</div></div>
+
+<main class="wrap">
+ <div class="panel">
+  <p data-i="locHelp"></p>
+  <button class="btn" id="loc" type="button" data-i="loc"></button>
+  <div id="locout" aria-live="polite"></div>
+ </div>
+
+ <div class="find">
+  <label class="sr" for="q" data-i="search"></label>
+  <input id="q" type="search" autocomplete="off" inputmode="search" data-ip="search">
+  <div class="chips" id="chips" role="group"></div>
+  <div class="bar"><div><button class="btn" id="dlall" type="button"></button><p class="note" id="dlhelp"></p></div><div id="count" aria-live="polite"></div></div>
+ </div>
+
+ <div id="list"></div>
+
+ <aside class="notes"><h2 data-i="notesTitle" style="font-size:1.05rem;margin-bottom:.5rem"></h2>
+  <ul><li data-i="n1"></li><li data-i="n2"></li><li data-i="n3"></li></ul></aside>
+</main>
+
+<footer><div class="wrap">
+ <h2 data-i="credits"></h2>
+ <p data-i="sources"></p>
+ <ul id="src"></ul>
+ <p id="by"></p>
+ <p id="disc"></p>
+</div></footer>
+<div id="toast" role="status"></div>
+
+<script src="data.js"></script>
+<script>
+const $=s=>document.querySelector(s);
+const ls={get(k,d){try{return localStorage.getItem('egs-'+k)??d}catch(e){return d}},set(k,v){try{localStorage.setItem('egs-'+k,v)}catch(e){}}};
+const S={lang:ls.get('lang','ar'),theme:ls.get('theme','auto'),fs:+ls.get('fs',0),q:'',cat:'all',pins:JSON.parse(ls.get('pins','[]'))};
+/* English is always rendered. The chosen language is added next to it. */
+const EN=k=>T.en[k]||X.en[k]||'';
+const t=k=>(T[S.lang]&&T[S.lang][k])||(X[S.lang]&&X[S.lang][k])||EN(k);
+const bf=fn=>{const a=fn(t),e=fn(EN);return S.lang==='en'||a===e?e:`${a}<span class="en" lang="en" dir="ltr">${e}</span>`};
+const bi=k=>bf(g=>g(k));
+const pl=fn=>{const a=fn(t),e=fn(EN);return S.lang==='en'||a===e?e:a+' / '+e};
+const norm=s=>String(s).toLowerCase().replace(/[٠-٩]/g,c=>c.charCodeAt(0)-1632).replace(/[\u064B-\u065F]/g,'').replace(/[أإآ]/g,'ا').replace(/ة/g,'ه').replace(/ى/g,'ي').replace(/\s+/g,' ').trim();
+const secSel=s=>(T[S.lang]&&T[S.lang][s.key])||s.ar;
+const secBi=s=>S.lang==='en'?s.en:`${secSel(s)}<span class="en" lang="en" dir="ltr">${s.en}</span>`;
+const CRIT=['122','123','180','112'];
+const ALL=DATA.flatMap(s=>s.items.map(i=>({...i,sec:s.id})));
+
+function toast(m){const e=$('#toast');e.textContent=m;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('on'),1800)}
+async function copy(x){try{await navigator.clipboard.writeText(x)}catch(e){const a=document.createElement('textarea');a.value=x;document.body.append(a);a.select();document.execCommand('copy');a.remove()}toast(pl(g=>g('copied'))+': '+x)}
+
+/* vCard 3.0: opens in iOS, Android and desktop contact apps */
+const ve=x=>String(x).replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n');
+const intl=n=>'+20'+n.replace(/^0/,'');
+function vcard(i){
+ const nm='EG '+i.e+' - '+i.a,L=['BEGIN:VCARD','VERSION:3.0','FN:'+ve(nm),'N:;'+ve(nm)+';;;','ORG:Egypt Emergency Numbers','TEL;TYPE=VOICE:'+i.n,'NOTE:'+ve(i.en)];
+ let g=0;const add=(num,lab)=>{g++;L.push('item'+g+'.TEL:'+num,'item'+g+'.X-ABLabel:'+lab)};
+ if(i.alt)add(i.alt,'Alternative number');
+ if(i.wa)add(intl(i.wa),'WhatsApp');
+ L.push('END:VCARD');return L.join('\r\n');
+}
+function dl(txt,name){
+ const u=URL.createObjectURL(new Blob([txt],{type:'text/vcard;charset=utf-8'})),a=document.createElement('a');
+ a.href=u;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),4000);
+ toast(pl(g=>g('saved')));
+}
+
+function rowHTML(i){
+ const pinned=S.pins.includes(i.n);
+ return `<article class="row">
+  <a class="num" href="tel:${i.n}">${i.n}</a>
+  <div class="info"><div class="nm"><span lang="ar">${i.a}</span><small lang="en" dir="ltr">${i.e}</small></div>
+  <p class="note">${S.lang==='ar'?`<span lang="ar">${i.an}</span>`:''}<span lang="en" dir="ltr">${i.en}</span></p></div>
+  <div class="acts"><a class="btn call" href="tel:${i.n}">${bi('call')}</a>
+  <button class="btn" data-copy="${i.n}" type="button">${bi('copy')}</button>
+  <button class="btn" data-save="${i.n}" type="button">${bi('save')}</button>
+  ${i.wa?`<a class="btn" href="https://wa.me/20${i.wa.replace(/^0/,'')}" target="_blank" rel="noopener">${bi('wa')}</a>`:''}
+  <button class="btn" data-pin="${i.n}" aria-pressed="${pinned}" type="button">${bi(pinned?'unpin':'pin')}</button></div></article>`;
+}
+const groupHTML=(h,sub,items)=>`<section class="grp"><div class="gh"><h2>${h}</h2>${sub?`<span lang="ar">${sub}</span>`:''}</div>${items.map(rowHTML).join('')}</section>`;
+
+function render(){
+ const D=document.documentElement;D.lang=S.lang;D.dir=S.lang==='ar'?'rtl':'ltr';D.style.fontSize=[100,112,128][S.fs]+'%';
+ delete D.dataset.theme;if(S.theme!=='auto')D.dataset.theme=S.theme;
+ document.title=pl(g=>g('title'));
+ document.querySelectorAll('[data-i]').forEach(e=>e.innerHTML=bi(e.dataset.i));
+ $('#h1').innerHTML=bi('title');$('#sub').innerHTML=bi('subtitle');
+ $('#q').placeholder=pl(g=>g('search'));
+ $('#theme').innerHTML=bf(g=>g('theme')+': '+g(S.theme));
+ $('#fs').innerHTML=bf(g=>g('size')+': '+['A','A+','A++'][S.fs]);
+ $('#dlall').innerHTML=bi('saveAll');$('#dlhelp').innerHTML=bi('saveAllHelp');
+ $('#crit').innerHTML=CRIT.map(n=>{const it=ALL.find(x=>x.n===n);
+  return `<a class="cb${n==='112'?' alt':''}" href="tel:${n}"><b>${n}</b><span lang="en" dir="ltr">${it.e}</span><span lang="ar">${it.a}</span></a>`}).join('');
+ const cats=[['all',bi('all')],...(S.pins.length?[['pins',bi('pinned')]]:[]),...DATA.map(s=>[s.id,secBi(s)])];
+ if(!cats.some(c=>c[0]===S.cat))S.cat='all';
+ $('#chips').innerHTML=cats.map(([id,l])=>`<button class="chip" data-cat="${id}" aria-pressed="${S.cat===id}" type="button">${l}</button>`).join('');
+ const q=norm(S.q);let n=0,h='';
+ const hit=i=>!q||norm([i.n,i.a,i.e,i.an,i.en].join(' ')).includes(q);
+ if(S.pins.length&&(S.cat==='all'||S.cat==='pins')&&!q){const p=ALL.filter(i=>S.pins.includes(i.n));n+=p.length;h+=groupHTML(bi('pinned'),'',p)}
+ if(S.cat!=='pins')for(const s of DATA){
+  if(S.cat!=='all'&&S.cat!==s.id)continue;
+  const its=s.items.filter(hit);if(!its.length)continue;n+=its.length;h+=groupHTML(secBi(s),S.lang==='en'?s.ar:'',its);
+ }
+ $('#list').innerHTML=h||`<p class="empty">${bi(S.pins.length||q?'noResults':'noPins')}</p>`;
+ $('#count').textContent=q?n+' '+pl(g=>g('found')):'';
+ $('#src').innerHTML=CREDITS.sources.map(s=>`<li>${s[1]} <span lang="ar">${s[0]}</span></li>`).join('');
+ const who=CREDITS.url?`<a href="${CREDITS.url}">${CREDITS.builder}</a>`:`<strong>${CREDITS.builder}</strong>`;
+ $('#by').innerHTML=bf(g=>g('built')+' '+who+'. '+g('reviewed')+': '+CREDITS.reviewed+'.');
+ $('#disc').innerHTML=bi('footer');
+}
+$('#lang').innerHTML=LANGS.map(l=>`<option value="${l.code}">${l.native}</option>`).join('');
+$('#lang').value=S.lang;
+$('#lang').onchange=e=>{S.lang=e.target.value;ls.set('lang',S.lang);render()};
+$('#theme').onclick=()=>{S.theme={auto:'light',light:'dark',dark:'auto'}[S.theme];ls.set('theme',S.theme);render()};
+$('#fs').onclick=()=>{S.fs=(S.fs+1)%3;ls.set('fs',S.fs);render()};
+$('#print').onclick=()=>print();
+$('#dlall').onclick=()=>dl(ALL.map(vcard).join('\r\n')+'\r\n','egypt-emergency-contacts.vcf');
+$('#q').oninput=e=>{S.q=e.target.value;render();$('#q').focus()};
+document.addEventListener('click',e=>{
+ const c=e.target.closest('[data-copy]'),p=e.target.closest('[data-pin]'),k=e.target.closest('[data-cat]'),v=e.target.closest('[data-save]');
+ if(c)copy(c.dataset.copy);
+ if(v){const i=ALL.find(x=>x.n===v.dataset.save);dl(vcard(i)+'\r\n','egypt-'+i.n+'.vcf')}
+ if(p){const n=p.dataset.pin;S.pins=S.pins.includes(n)?S.pins.filter(x=>x!==n):[...S.pins,n];ls.set('pins',JSON.stringify(S.pins));render()}
+ if(k){S.cat=k.dataset.cat;render()}
+});
+$('#loc').onclick=()=>{
+ const o=$('#locout');o.innerHTML=bi('locWait');
+ if(!navigator.geolocation){o.innerHTML=bi('locErr');return}
+ navigator.geolocation.getCurrentPosition(p=>{
+  const c=p.coords.latitude.toFixed(5)+', '+p.coords.longitude.toFixed(5);
+  o.innerHTML=`<strong dir="ltr">${c}</strong> (±${Math.round(p.coords.accuracy)} m) <button class="btn" id="lc" type="button">${bi('copy')}</button> <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps?q=${p.coords.latitude},${p.coords.longitude}">${bi('openMap')}</a>`;
+  $('#lc').onclick=()=>copy(c);
+ },()=>{o.innerHTML=bi('locErr')},{enableHighAccuracy:true,timeout:15000,maximumAge:30000});
+};
+render();
+if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
+</script>
+</body>
+</html>

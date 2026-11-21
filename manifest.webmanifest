@@ -1,0 +1,15 @@
+{
+  "name": "Egypt Emergency Numbers | أرقام الطوارئ في مصر",
+  "short_name": "Egypt SOS",
+  "description": "Every Egypt emergency and service number in one place. Works offline.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f1f3f5",
+  "theme_color": "#c8102e",
+  "lang": "ar",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}
