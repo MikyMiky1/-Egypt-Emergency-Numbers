@@ -150,7 +150,7 @@ ar:{all:"الكل",pinned:"المثبّتة",pin:"تثبيت",unpin:"إلغاء 
 };
 
 const CREDITS = {
-  builder: "Your Name",          // edit: shown in the footer
+  builder: "MikyMikx",          // edit: shown in the footer
   url: "",                       // optional link for the builder
   reviewed: "November 2026",
   sources: [
